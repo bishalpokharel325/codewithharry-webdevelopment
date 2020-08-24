@@ -1,1 +1,114 @@
 #1 Video no 1:
+CSS: Cascading style Sheets
+
+CSS le k garxa:
+1) raw HTML lai style dene kam garxa
+	raw vannale ... default HTML style
+2) website lai responsive banaune kam garxa
+	laptop makhulda laptop jasto ra mobile ma kasari dekhaune? ipad makasari dekhaune tyesto
+3) HTML: Structure the Website
+CSS: Responsibilty of design
+4) Beautiful and modern looking banaune CSS le
+
+
+Qn. kina chai attributes heru html tag mai nalekhne? 
+sap ko jimmewari CSS lai denu parxa... maintain garna sajilo huncha
+css le garne .. in line css
+skeleton -- HTML 
+Styling-- CSS
+
+
+5) CSS ko syntex:
+
+selector{property:value;}
+ex.
+p{color:blue;}
+
+selector(P): yo tag ko name or id ho... kaha apply garne? paragarph ma garne
+jati pani paragraph cha tyesko color blue rakhne yesko meaning
+
+6) Suppose P P P P P cha but 3rd p ko matra style change garnu parema
+id use garne
+7) new line ni dina sakincha
+multiple property garna lai
+
+header,p.intro{
+		background-color:red;
+		border-radius:3px;
+		}
+8) Mark up vanekai HTML ko code ho
+9) 3 Ways to add CSS
+	1) Inline CSS:
+		Tag vitrai ghusaune. <p style="---">
+		drawbacks:
+			HTML yesto messy huncha afai samvalna sakinna 
+	2) Internal CSS
+		sshead ko vitra <style> tag ko vitra garne tarika
+		drawbacks: dherai lines cha CSS ko vane alag file banako ramro
+	3) External CSS
+		alag file banara CSS banaune tarika
+		1) STEP 1: WRITE CSS IN .CSS FILE LIKE bishal.css
+		2) STEP 2: include that css file to mark up
+10) Example garum... sapai in VS code ma in another video??
+
+
+
+#2 VIdeo no 2:
+
+1) inline css banauna tag vitra style=color:red; garne
+<p style="color:red;"></p>
+2) Internal css banauna 
+head tag vitra yesto dene
+<head>
+<style>
+p{
+	color:red;
+	background-color:yellow;
+ }
+</style>
+</head> 
+3) External CSS banauna
+ step 1: make file style.css in same folder
+ step 2: css file ma code lekhne
+ step 3: head ko tag vitra:link:css thicne afai tag aucha
+
+4) priority and ranking
+
+first priority inline css lai dincha
+ani tyepspichari chai head vitra last ma j cha tyeslai dincha internal ra external maddhe
+
+5) yo priority lai break garna !important lagauda huncha
+
+#video no 3: Selectors in CSS
+
+1) types of selectors:
+	CSS element selector
+	CSS id selector #first dene
+	CSS class selector .second dene
+	css grouping selector footer,span,.first,.second{background-color=red;}
+2) important kura: id unique huncha class multiple huncha
+3) CSS ma alagai comments huncha
+HTML ma <!-- yesari lekhna sakintheo --!>
+CSS ma /* yesari */
+4) visual studio ma ctrl + / garda afai symbol dincha
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+  
+
+
+
+
+

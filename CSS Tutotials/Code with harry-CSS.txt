@@ -79,6 +79,8 @@ ani tyepspichari chai head vitra last ma j cha tyeslai dincha internal ra extern
 
 5) yo priority lai break garna !important lagauda huncha
 
+
+
 #video no 3: Selectors in CSS
 
 1) types of selectors:
@@ -91,6 +93,60 @@ ani tyepspichari chai head vitra last ma j cha tyeslai dincha internal ra extern
 HTML ma <!-- yesari lekhna sakintheo --!>
 CSS ma /* yesari */
 4) visual studio ma ctrl + / garda afai symbol dincha
+
+
+#video no 4: using chrome developer tool
+
+1) inspection tool gayera code change garna milcha.. html ko file change gardaina but just code change garxa
+2) select and element arrow click garera tya ko code samma puryaidincha...side ma righ side ma 
+3) sapai changes tye browser ma garna sakincha
+4) hamro matra haina jasko webstie ma gayera code change garna milcha
+5) tryo it yourself
+6) browerser ma test garne ra copy garne ra hamro editor ma paste garne
+
+
+#video no 5:CSS fonts
+
+1) put boiler plates and add heading and para and internal css
+
+<h1>CSS fonts </h1>
+<p>Lets play with fonts. It is very exciting</p>
+
+2)add <style> internal css
+p{
+font-family:cursive;
+}
+font change
+
+3)most of os ma pre installed font aucha but aru font use garda error aucha
+web font os ma hudaina tyo import garnu parxa
+
+4) font stag garna milcha
+font-family:"Franklin Gothic Medium","Arial Narrow","Arial","san-serif"
+yo garda f navaye A navaye A navaye S huncha yo garnu ramro userko ma font installend nahuna sakcha
+
+5)web font:
+
+search on internet "web save fonts" best font is google font font.google.com
+6) google font ma jane kun man parxa 
+7) plus thichne duita texts heru copy garna milcha... 1)import link ra 2)copy paste font ko name
+8) <link wala copy garne aucha copy garera paste garne on head section
+9) ani style vitra tyo font dene
+10) 
+font-size:10px lagauna milcha
+11) font size ko dherai huncha units
+12) line-height: 8.3em; yesle space dincha mathi
+	font-weight:bold
+em: parent ko font size ko multiplier
+font-style:italic
+13) sapai css ratnu pardaina kailai jaile refreence garen ho 
+14) yeti basics chai tha hunu parxa
+css font: font-family,font-size,font-weight,line-height,font-style
+
+
+#video no 6: CSS Colors
+
+
 
 
 
